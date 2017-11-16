@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D0B94A51E7869830028645D /* playerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B94A41E7869830028645D /* playerTableViewCell.swift */; };
+		5D0B94A71E786B780028645D /* playerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B94A61E786B780028645D /* playerListTableViewController.swift */; };
+		5D0B94A91E786C240028645D /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B94A81E786C240028645D /* player.swift */; };
+		5D0B94AB1E7874940028645D /* editPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B94AA1E7874940028645D /* editPlayer.swift */; };
+		5D0B94AD1E7C108D0028645D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B94AC1E7C108C0028645D /* MainView.swift */; };
+		5D0B94B11E7C2D0C0028645D /* SearchViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B94B01E7C2D0C0028645D /* SearchViewTableViewController.swift */; };
+		5D0B94B31E7C2DEE0028645D /* searchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B94B21E7C2DEE0028645D /* searchTableViewCell.swift */; };
+		5D0B94B71E7C3E990028645D /* resultObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B94B61E7C3E980028645D /* resultObject.swift */; };
+		5D7296591E8EB7EB00155BFF /* playerSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7296581E8EB7EB00155BFF /* playerSearcher.swift */; };
+		5D7ED33B1E8180D100A04A69 /* queueViewTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7ED33A1E8180D100A04A69 /* queueViewTableController.swift */; };
+		5D7ED33D1E81854E00A04A69 /* queueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7ED33C1E81854E00A04A69 /* queueTableViewCell.swift */; };
+		5DAF5F7C1E76E96C002AC22B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF5F7B1E76E96C002AC22B /* AppDelegate.swift */; };
+		5DAF5F7E1E76E96C002AC22B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF5F7D1E76E96C002AC22B /* ViewController.swift */; };
+		5DAF5F831E76E96C002AC22B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DAF5F821E76E96C002AC22B /* Assets.xcassets */; };
+		5DAF5F861E76E96C002AC22B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAF5F841E76E96C002AC22B /* LaunchScreen.storyboard */; };
+		5DAF5F911E76E96C002AC22B /* GPDMP_RemoteFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF5F901E76E96C002AC22B /* GPDMP_RemoteFinalTests.swift */; };
+		5DAF5F9C1E76E96C002AC22B /* GPDMP_RemoteFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF5F9B1E76E96C002AC22B /* GPDMP_RemoteFinalUITests.swift */; };
+		5DAF5FB01E76EAB6002AC22B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAF5FAF1E76EAB6002AC22B /* Main.storyboard */; };
+		6CC6B7C47326DB610BF81C63 /* Pods_GPDMP_RemoteFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1DBF7396CB192D761C88D2 /* Pods_GPDMP_RemoteFinal.framework */; };
+		BBF31394027A307E3EFBF4E5 /* Pods_GPDMP_RemoteFinalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D84DB82B158BE25AB1C1715A /* Pods_GPDMP_RemoteFinalTests.framework */; };
+		CEE6E64B1133EEB4596A400B /* Pods_GPDMP_RemoteFinalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A267824C5524598F37512C13 /* Pods_GPDMP_RemoteFinalUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DAF5F8D1E76E96C002AC22B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DAF5F701E76E96C002AC22B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DAF5F771E76E96C002AC22B;
+			remoteInfo = "GPDMP RemoteFinal";
+		};
+		5DAF5F981E76E96C002AC22B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DAF5F701E76E96C002AC22B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DAF5F771E76E96C002AC22B;
+			remoteInfo = "GPDMP RemoteFinal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0091D745E4D00ECDF1308271 /* Pods-GPDMP RemoteFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPDMP RemoteFinal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPDMP RemoteFinal/Pods-GPDMP RemoteFinal.debug.xcconfig"; sourceTree = "<group>"; };
+		037314FB47D5F561577DA140 /* Pods-GPDMP RemoteFinalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPDMP RemoteFinalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPDMP RemoteFinalUITests/Pods-GPDMP RemoteFinalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		422501CECC64068DBCFADDCA /* Pods-GPDMP RemoteFinalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPDMP RemoteFinalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPDMP RemoteFinalTests/Pods-GPDMP RemoteFinalTests.release.xcconfig"; sourceTree = "<group>"; };
+		554D7F8F446CF1B949A15282 /* Pods-GPDMP RemoteFinalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPDMP RemoteFinalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPDMP RemoteFinalTests/Pods-GPDMP RemoteFinalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D0B94A41E7869830028645D /* playerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playerTableViewCell.swift; sourceTree = "<group>"; };
+		5D0B94A61E786B780028645D /* playerListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playerListTableViewController.swift; sourceTree = "<group>"; };
+		5D0B94A81E786C240028645D /* player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
+		5D0B94AA1E7874940028645D /* editPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editPlayer.swift; sourceTree = "<group>"; };
+		5D0B94AC1E7C108C0028645D /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5D0B94B01E7C2D0C0028645D /* SearchViewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewTableViewController.swift; sourceTree = "<group>"; };
+		5D0B94B21E7C2DEE0028645D /* searchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchTableViewCell.swift; sourceTree = "<group>"; };
+		5D0B94B61E7C3E980028645D /* resultObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultObject.swift; sourceTree = "<group>"; };
+		5D7296581E8EB7EB00155BFF /* playerSearcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playerSearcher.swift; sourceTree = "<group>"; };
+		5D7ED33A1E8180D100A04A69 /* queueViewTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = queueViewTableController.swift; sourceTree = "<group>"; };
+		5D7ED33C1E81854E00A04A69 /* queueTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = queueTableViewCell.swift; sourceTree = "<group>"; };
+		5DAF5F781E76E96C002AC22B /* GPDMP RemoteFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPDMP RemoteFinal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAF5F7B1E76E96C002AC22B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DAF5F7D1E76E96C002AC22B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DAF5F821E76E96C002AC22B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DAF5F851E76E96C002AC22B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DAF5F871E76E96C002AC22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DAF5F8C1E76E96C002AC22B /* GPDMP RemoteFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPDMP RemoteFinalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAF5F901E76E96C002AC22B /* GPDMP_RemoteFinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPDMP_RemoteFinalTests.swift; sourceTree = "<group>"; };
+		5DAF5F921E76E96C002AC22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DAF5F971E76E96C002AC22B /* GPDMP RemoteFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPDMP RemoteFinalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAF5F9B1E76E96C002AC22B /* GPDMP_RemoteFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPDMP_RemoteFinalUITests.swift; sourceTree = "<group>"; };
+		5DAF5F9D1E76E96C002AC22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DAF5FAF1E76EAB6002AC22B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		734D925EBB082C96806A3394 /* Pods-GPDMP RemoteFinalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPDMP RemoteFinalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPDMP RemoteFinalUITests/Pods-GPDMP RemoteFinalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A267824C5524598F37512C13 /* Pods_GPDMP_RemoteFinalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPDMP_RemoteFinalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84DB82B158BE25AB1C1715A /* Pods_GPDMP_RemoteFinalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPDMP_RemoteFinalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86A1D8C75001AACB1E4901E /* Pods-GPDMP RemoteFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPDMP RemoteFinal.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPDMP RemoteFinal/Pods-GPDMP RemoteFinal.release.xcconfig"; sourceTree = "<group>"; };
+		FF1DBF7396CB192D761C88D2 /* Pods_GPDMP_RemoteFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPDMP_RemoteFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DAF5F751E76E96C002AC22B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC6B7C47326DB610BF81C63 /* Pods_GPDMP_RemoteFinal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF5F891E76E96C002AC22B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF31394027A307E3EFBF4E5 /* Pods_GPDMP_RemoteFinalTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF5F941E76E96C002AC22B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE6E64B1133EEB4596A400B /* Pods_GPDMP_RemoteFinalUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F4F4EAD244B1C577B39C6FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0091D745E4D00ECDF1308271 /* Pods-GPDMP RemoteFinal.debug.xcconfig */,
+				E86A1D8C75001AACB1E4901E /* Pods-GPDMP RemoteFinal.release.xcconfig */,
+				554D7F8F446CF1B949A15282 /* Pods-GPDMP RemoteFinalTests.debug.xcconfig */,
+				422501CECC64068DBCFADDCA /* Pods-GPDMP RemoteFinalTests.release.xcconfig */,
+				734D925EBB082C96806A3394 /* Pods-GPDMP RemoteFinalUITests.debug.xcconfig */,
+				037314FB47D5F561577DA140 /* Pods-GPDMP RemoteFinalUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5DAF5F6F1E76E96C002AC22B = {
+			isa = PBXGroup;
+			children = (
+				5DAF5F7A1E76E96C002AC22B /* GPMDP RemoteFinal */,
+				5DAF5F8F1E76E96C002AC22B /* GPDMP RemoteFinalTests */,
+				5DAF5F9A1E76E96C002AC22B /* GPDMP RemoteFinalUITests */,
+				5DAF5F791E76E96C002AC22B /* Products */,
+				3F4F4EAD244B1C577B39C6FD /* Pods */,
+				A1A9AD5EE7F952EBB5B5F968 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5DAF5F791E76E96C002AC22B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF5F781E76E96C002AC22B /* GPDMP RemoteFinal.app */,
+				5DAF5F8C1E76E96C002AC22B /* GPDMP RemoteFinalTests.xctest */,
+				5DAF5F971E76E96C002AC22B /* GPDMP RemoteFinalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DAF5F7A1E76E96C002AC22B /* GPMDP RemoteFinal */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF5FAF1E76EAB6002AC22B /* Main.storyboard */,
+				5D0B94A61E786B780028645D /* playerListTableViewController.swift */,
+				5D0B94AC1E7C108C0028645D /* MainView.swift */,
+				5D0B94A41E7869830028645D /* playerTableViewCell.swift */,
+				5DAF5F7B1E76E96C002AC22B /* AppDelegate.swift */,
+				5DAF5F7D1E76E96C002AC22B /* ViewController.swift */,
+				5DAF5F821E76E96C002AC22B /* Assets.xcassets */,
+				5DAF5F841E76E96C002AC22B /* LaunchScreen.storyboard */,
+				5DAF5F871E76E96C002AC22B /* Info.plist */,
+				5D0B94A81E786C240028645D /* player.swift */,
+				5D0B94AA1E7874940028645D /* editPlayer.swift */,
+				5D0B94B01E7C2D0C0028645D /* SearchViewTableViewController.swift */,
+				5D7ED33A1E8180D100A04A69 /* queueViewTableController.swift */,
+				5D0B94B61E7C3E980028645D /* resultObject.swift */,
+				5D0B94B21E7C2DEE0028645D /* searchTableViewCell.swift */,
+				5D7ED33C1E81854E00A04A69 /* queueTableViewCell.swift */,
+				5D7296581E8EB7EB00155BFF /* playerSearcher.swift */,
+			);
+			name = "GPMDP RemoteFinal";
+			path = "GPDMP RemoteFinal";
+			sourceTree = "<group>";
+		};
+		5DAF5F8F1E76E96C002AC22B /* GPDMP RemoteFinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF5F901E76E96C002AC22B /* GPDMP_RemoteFinalTests.swift */,
+				5DAF5F921E76E96C002AC22B /* Info.plist */,
+			);
+			path = "GPDMP RemoteFinalTests";
+			sourceTree = "<group>";
+		};
+		5DAF5F9A1E76E96C002AC22B /* GPDMP RemoteFinalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF5F9B1E76E96C002AC22B /* GPDMP_RemoteFinalUITests.swift */,
+				5DAF5F9D1E76E96C002AC22B /* Info.plist */,
+			);
+			path = "GPDMP RemoteFinalUITests";
+			sourceTree = "<group>";
+		};
+		A1A9AD5EE7F952EBB5B5F968 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF1DBF7396CB192D761C88D2 /* Pods_GPDMP_RemoteFinal.framework */,
+				D84DB82B158BE25AB1C1715A /* Pods_GPDMP_RemoteFinalTests.framework */,
+				A267824C5524598F37512C13 /* Pods_GPDMP_RemoteFinalUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DAF5F771E76E96C002AC22B /* GPDMP RemoteFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAF5FA01E76E96C002AC22B /* Build configuration list for PBXNativeTarget "GPDMP RemoteFinal" */;
+			buildPhases = (
+				60CC30D4EBD9E9C48A2BBF2D /* [CP] Check Pods Manifest.lock */,
+				5DAF5F741E76E96C002AC22B /* Sources */,
+				5DAF5F751E76E96C002AC22B /* Frameworks */,
+				5DAF5F761E76E96C002AC22B /* Resources */,
+				BEA2E8C99E985A314292F92C /* [CP] Embed Pods Frameworks */,
+				37C1B4148E54A925CE1C86A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPDMP RemoteFinal";
+			productName = "GPDMP RemoteFinal";
+			productReference = 5DAF5F781E76E96C002AC22B /* GPDMP RemoteFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DAF5F8B1E76E96C002AC22B /* GPDMP RemoteFinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAF5FA31E76E96C002AC22B /* Build configuration list for PBXNativeTarget "GPDMP RemoteFinalTests" */;
+			buildPhases = (
+				5918A7790F64B5638AA0BD37 /* [CP] Check Pods Manifest.lock */,
+				5DAF5F881E76E96C002AC22B /* Sources */,
+				5DAF5F891E76E96C002AC22B /* Frameworks */,
+				5DAF5F8A1E76E96C002AC22B /* Resources */,
+				4EDFEFD1C3028919D24275CC /* [CP] Embed Pods Frameworks */,
+				A6E7B117398CC5DC290E8C6A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DAF5F8E1E76E96C002AC22B /* PBXTargetDependency */,
+			);
+			name = "GPDMP RemoteFinalTests";
+			productName = "GPDMP RemoteFinalTests";
+			productReference = 5DAF5F8C1E76E96C002AC22B /* GPDMP RemoteFinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DAF5F961E76E96C002AC22B /* GPDMP RemoteFinalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAF5FA61E76E96C002AC22B /* Build configuration list for PBXNativeTarget "GPDMP RemoteFinalUITests" */;
+			buildPhases = (
+				C2C72973DEC4F4BB50184892 /* [CP] Check Pods Manifest.lock */,
+				5DAF5F931E76E96C002AC22B /* Sources */,
+				5DAF5F941E76E96C002AC22B /* Frameworks */,
+				5DAF5F951E76E96C002AC22B /* Resources */,
+				38EC65A75A066E00BF3B1A25 /* [CP] Embed Pods Frameworks */,
+				655C7C9FD4856F88477AE197 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DAF5F991E76E96C002AC22B /* PBXTargetDependency */,
+			);
+			name = "GPDMP RemoteFinalUITests";
+			productName = "GPDMP RemoteFinalUITests";
+			productReference = 5DAF5F971E76E96C002AC22B /* GPDMP RemoteFinalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DAF5F701E76E96C002AC22B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nathan Whitaker";
+				TargetAttributes = {
+					5DAF5F771E76E96C002AC22B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A3LCYGXBXN;
+						ProvisioningStyle = Automatic;
+					};
+					5DAF5F8B1E76E96C002AC22B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A3LCYGXBXN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5DAF5F771E76E96C002AC22B;
+					};
+					5DAF5F961E76E96C002AC22B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A3LCYGXBXN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5DAF5F771E76E96C002AC22B;
+					};
+				};
+			};
+			buildConfigurationList = 5DAF5F731E76E96C002AC22B /* Build configuration list for PBXProject "GPMDP RemoteFinal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DAF5F6F1E76E96C002AC22B;
+			productRefGroup = 5DAF5F791E76E96C002AC22B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DAF5F771E76E96C002AC22B /* GPDMP RemoteFinal */,
+				5DAF5F8B1E76E96C002AC22B /* GPDMP RemoteFinalTests */,
+				5DAF5F961E76E96C002AC22B /* GPDMP RemoteFinalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DAF5F761E76E96C002AC22B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAF5F861E76E96C002AC22B /* LaunchScreen.storyboard in Resources */,
+				5DAF5F831E76E96C002AC22B /* Assets.xcassets in Resources */,
+				5DAF5FB01E76EAB6002AC22B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF5F8A1E76E96C002AC22B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF5F951E76E96C002AC22B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37C1B4148E54A925CE1C86A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPDMP RemoteFinal/Pods-GPDMP RemoteFinal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38EC65A75A066E00BF3B1A25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPDMP RemoteFinalUITests/Pods-GPDMP RemoteFinalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EDFEFD1C3028919D24275CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPDMP RemoteFinalTests/Pods-GPDMP RemoteFinalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5918A7790F64B5638AA0BD37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60CC30D4EBD9E9C48A2BBF2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		655C7C9FD4856F88477AE197 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPDMP RemoteFinalUITests/Pods-GPDMP RemoteFinalUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6E7B117398CC5DC290E8C6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPDMP RemoteFinalTests/Pods-GPDMP RemoteFinalTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEA2E8C99E985A314292F92C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPDMP RemoteFinal/Pods-GPDMP RemoteFinal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2C72973DEC4F4BB50184892 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DAF5F741E76E96C002AC22B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0B94AB1E7874940028645D /* editPlayer.swift in Sources */,
+				5D0B94B71E7C3E990028645D /* resultObject.swift in Sources */,
+				5D0B94AD1E7C108D0028645D /* MainView.swift in Sources */,
+				5DAF5F7E1E76E96C002AC22B /* ViewController.swift in Sources */,
+				5DAF5F7C1E76E96C002AC22B /* AppDelegate.swift in Sources */,
+				5D0B94A51E7869830028645D /* playerTableViewCell.swift in Sources */,
+				5D7ED33B1E8180D100A04A69 /* queueViewTableController.swift in Sources */,
+				5D7296591E8EB7EB00155BFF /* playerSearcher.swift in Sources */,
+				5D0B94A71E786B780028645D /* playerListTableViewController.swift in Sources */,
+				5D0B94B11E7C2D0C0028645D /* SearchViewTableViewController.swift in Sources */,
+				5D0B94A91E786C240028645D /* player.swift in Sources */,
+				5D0B94B31E7C2DEE0028645D /* searchTableViewCell.swift in Sources */,
+				5D7ED33D1E81854E00A04A69 /* queueTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF5F881E76E96C002AC22B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAF5F911E76E96C002AC22B /* GPDMP_RemoteFinalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF5F931E76E96C002AC22B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAF5F9C1E76E96C002AC22B /* GPDMP_RemoteFinalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DAF5F8E1E76E96C002AC22B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DAF5F771E76E96C002AC22B /* GPDMP RemoteFinal */;
+			targetProxy = 5DAF5F8D1E76E96C002AC22B /* PBXContainerItemProxy */;
+		};
+		5DAF5F991E76E96C002AC22B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DAF5F771E76E96C002AC22B /* GPDMP RemoteFinal */;
+			targetProxy = 5DAF5F981E76E96C002AC22B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DAF5F841E76E96C002AC22B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DAF5F851E76E96C002AC22B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DAF5F9E1E76E96C002AC22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DAF5F9F1E76E96C002AC22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DAF5FA11E76E96C002AC22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0091D745E4D00ECDF1308271 /* Pods-GPDMP RemoteFinal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A3LCYGXBXN;
+				INFOPLIST_FILE = "GPDMP RemoteFinal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.GPMDP-Remote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5DAF5FA21E76E96C002AC22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E86A1D8C75001AACB1E4901E /* Pods-GPDMP RemoteFinal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A3LCYGXBXN;
+				INFOPLIST_FILE = "GPDMP RemoteFinal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.GPMDP-Remote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5DAF5FA41E76E96C002AC22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 554D7F8F446CF1B949A15282 /* Pods-GPDMP RemoteFinalTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A3LCYGXBXN;
+				INFOPLIST_FILE = "GPDMP RemoteFinalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.GPDMP-RemoteFinalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPDMP RemoteFinal.app/GPDMP RemoteFinal";
+			};
+			name = Debug;
+		};
+		5DAF5FA51E76E96C002AC22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 422501CECC64068DBCFADDCA /* Pods-GPDMP RemoteFinalTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A3LCYGXBXN;
+				INFOPLIST_FILE = "GPDMP RemoteFinalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.GPDMP-RemoteFinalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPDMP RemoteFinal.app/GPDMP RemoteFinal";
+			};
+			name = Release;
+		};
+		5DAF5FA71E76E96C002AC22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 734D925EBB082C96806A3394 /* Pods-GPDMP RemoteFinalUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A3LCYGXBXN;
+				INFOPLIST_FILE = "GPDMP RemoteFinalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.GPDMP-RemoteFinalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "GPDMP RemoteFinal";
+			};
+			name = Debug;
+		};
+		5DAF5FA81E76E96C002AC22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 037314FB47D5F561577DA140 /* Pods-GPDMP RemoteFinalUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A3LCYGXBXN;
+				INFOPLIST_FILE = "GPDMP RemoteFinalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.GPDMP-RemoteFinalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "GPDMP RemoteFinal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DAF5F731E76E96C002AC22B /* Build configuration list for PBXProject "GPMDP RemoteFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAF5F9E1E76E96C002AC22B /* Debug */,
+				5DAF5F9F1E76E96C002AC22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAF5FA01E76E96C002AC22B /* Build configuration list for PBXNativeTarget "GPDMP RemoteFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAF5FA11E76E96C002AC22B /* Debug */,
+				5DAF5FA21E76E96C002AC22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAF5FA31E76E96C002AC22B /* Build configuration list for PBXNativeTarget "GPDMP RemoteFinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAF5FA41E76E96C002AC22B /* Debug */,
+				5DAF5FA51E76E96C002AC22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAF5FA61E76E96C002AC22B /* Build configuration list for PBXNativeTarget "GPDMP RemoteFinalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAF5FA71E76E96C002AC22B /* Debug */,
+				5DAF5FA81E76E96C002AC22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DAF5F701E76E96C002AC22B /* Project object */;
+}

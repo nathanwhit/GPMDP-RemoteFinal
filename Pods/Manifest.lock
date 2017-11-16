@@ -1,0 +1,21 @@
+PODS:
+  - AsyncSwift (2.0.1)
+  - Kingfisher (3.5.2)
+  - Starscream (2.0.3)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - AsyncSwift
+  - Kingfisher (~> 3.0)
+  - Starscream
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  AsyncSwift: 632138e42ead868b53c745fcde9bf733ce1527ad
+  Kingfisher: 9950e382c500b6834ce004c7c4131c444e90c3a1
+  Starscream: 3fdd5c277e57cca6b5c406d274e3f34a7c88f2ce
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: fb6f0aa5cc94b4a335d57066efeec6e539efb3d8
+
+COCOAPODS: 1.2.0
