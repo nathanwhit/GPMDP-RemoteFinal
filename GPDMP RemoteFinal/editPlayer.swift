@@ -53,7 +53,7 @@ class editPlayer: UIViewController, UITextFieldDelegate, WebSocketDelegate {
     @IBAction func sendCode(_ sender: UITextField) {
         guard editIPAddress.text != nil || editIPAddress.text != "" || codeEntryField.text != "" || isPerma == false else {return}
         let code = codeEntryField.text
-        let connectCom = "{\"namespace\":\"connect\", \"method\":\"connect\",\"arguments\":[\"iPhone / GPMDP Remote IOS\",\"\(code!)\"]}"
+        let connectCom = "{\"namespace\":\"connect\", \"method\":\"connect\",\"arguments\":[\"GPMDP Remote IOS\",\"\(code!)\"]}"
         print("sent message: " + connectCom)
         sock?.write(string: connectCom)
         isPerma = false
@@ -107,8 +107,9 @@ class editPlayer: UIViewController, UITextFieldDelegate, WebSocketDelegate {
         editIPAddress.delegate = self
         codeEntryField.delegate = self
         
-        updateSaveButtonState()
+        
         isPerma = false
+        updateSaveButtonState()
 
         // Do any additional setup after loading the view.
     }
